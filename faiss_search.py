@@ -6,7 +6,7 @@ from embedding import get_embedding
 # ユーザーの質問をベクトルに変換し、FAISSを使って似たチャンクを検索するスクリプト
 
 #(チャンク, ベクトル)
-with open('C:/Users/omoch/Downloads/AI_cahtbot/embeddings.pkl', 'rb') as f:
+with open('embeddings.pkl', 'rb') as f:
     embeddings = pickle.load(f)
 
 
