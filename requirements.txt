@@ -4,3 +4,5 @@ faiss-cpu
 transformers
 torch
 scikit-learn
+python-dotenv
+numpy
