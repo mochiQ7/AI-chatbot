@@ -1,0 +1,6 @@
+streamlit
+openai
+faiss-cpu
+transformers
+torch
+scikit-learn
