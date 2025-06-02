@@ -5,6 +5,9 @@ Streamlitで動作し、FAISSベースのベクトル検索＋生成AIによる�
 ## 情報通信白書のAIチャットボット  
 [🌐 アプリを試す](https://ai-chatbot-kefhgtbmroq76vbujaijtn.streamlit.app/)
 
+### 総務省 情報通信白書2023 URL
+[🔗総務省 情報通信白書2023](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r06/html/nd130000.html)
+
 ## 🔧 構成
 - 言語モデル：intfloat/multilingual-e5-small
 - ベクトル検索：FAISS
