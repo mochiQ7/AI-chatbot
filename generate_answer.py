@@ -1,11 +1,8 @@
-import os
+import streamlit as st
 from openai import OpenAI
-from dotenv import load_dotenv
 
-# .envファイルからAPIキーを読み込み
-load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+# StreamlitのSecretsからAPIキーを取得
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 # prompt:GPTに送る質問文
 def generate_answer(context, question):
     prompt = f"""

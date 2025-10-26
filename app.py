@@ -3,6 +3,9 @@ import datetime
 from faiss_search import search
 from generate_answer import generate_answer
 
+
+
+
 # 設定
 st.set_page_config(page_title="AIチャットボット", layout="centered")
 st.title("🤖 情報通信白書のAI ChatBot🔍")
